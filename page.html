@@ -10,7 +10,6 @@
             min-height: 100vh;
         }
 
-        /* Убираем стандартные отступы у контейнера */
         .container-fluid {
             padding-left: 0;
             padding-right: 0;
@@ -20,14 +19,10 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <!-- Боковая панель -->
         <div class="col-md-3 col-lg-2 bg-dark text-white sidebar p-0">
-            <!-- Заголовок -->
             <div class="mt-4 bg-dark p-3">
                 <h5 class="mb-0 ms-4">Меню</h5>
             </div>
-
-            <!-- Навигация -->
             <nav class="nav flex-column p-3">
                 <a class="nav-link text-white" href="#">
                     <i class="bi bi-house me-2"></i>Главная
@@ -42,8 +37,6 @@
                     <i class="bi bi-envelope me-2"></i>Контакты
                 </a>
             </nav>
-
-            <!-- Дополнительный контент -->
             <div class="dropdown w-25">
                 <button class="btn bg-dark text-white dropdown-toggle mb-1" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false" style="position: fixed; bottom: 20px; left: 20px;">
@@ -56,7 +49,6 @@
             </div>
         </div>
 
-        <!-- Основной контент -->
         <div class="col-md-9 col-lg-10 bg-light">
             <div class="p-4">
                 <h1>Основной контент</h1>
